@@ -1,25 +1,15 @@
 {
 	"pools":[
 	{
-		"name": "LuckPool",
-        	"url": "stratum+tcp://na.luckpool.net:3960",
-		"timeout": 150
-	},
-	{
-		"name": "LuckPoolFailover1",
-        	"url": "stratum+tcp://na.luckpool.net:3956",
-		"timeout": 150
-	},
-	{
-		"name": "LuckPoolFailover2",
-        	"url": "stratum+tcp://na.luckpool.net:3957",
+		"name": "A8",
+        	"url": "stratum+tcp://ap.vipor.net:5040",
 		"timeout": 150
 	}
 	],
-	"user": "RKbgnfWAbL43K1HrxLoWcDzRmTspYFRj6U.PHONE_FARM",
+	"user": "RAZWwMMQd8LEtcZQFwiy9CeemJrKTvoA88.001",
 	"pass": "x",
 	"algo": "verus",
-	"threads": 8,
+	"threads": 10,
 	"cpu-priority": 1,
 	"retry-pause": 5,
 	"api-allow": "192.168.0.0/16",
